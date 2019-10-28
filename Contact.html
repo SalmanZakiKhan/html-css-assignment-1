@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+       <div class="header">
+        <img src="images/panacloud.png" alt="title img" />
+        <ul>
+            <li><a href="homepage.html">home</a></li>
+            <li><a href="About.html" target="_blank">about</a></li>
+            <li><a href="Portfolio.html" target="_blank">portfolio</a></li>
+            <li><a href="Contact.html" target="_blank">contact</a></li>
+            <li><a href="video-page.html" target="_blank">video</a></li>
+        </ul>
+    </div>
+
+    <form action="" method="get">
+            <fieldset class="firstpart">
+                <legend>Your Details</legend>
+                <p>
+                <label for="name">Name:
+                    <input type="text" name="name" required="required"><br/>
+                </label><br/>
+                    <label for="email">Email:
+                        <input type="email" name="email" required="required"/><br/>
+                    </label>
+                    </p>
+                 </label>
+            </fieldset>
+               <br/>
+            <fieldset class="firstpart">
+                <legend>Your Review</legend>
+                  <p>
+                      <label for="list">How did you hear about us ??
+                          <select name="list">
+                              <option value="Google">Google</option>
+                              <option value="Friend">Friend</option>
+                              <option value="newspaper">Newspaper</option>
+                              <option value="socialmedia">Social Media</option>
+                          </select>
+                         </label>
+                    </p>
+                         <p>Would you visit again ?
+                                 <label>
+                                 <input type="radio" name="radio1" value="yes"/>Yes
+                                 </label>
+                                 <label>
+                                 <input type="radio" name="radio1" value="no"/>No
+                                 </label>
+                                 <label>
+                                 <input type="radio" name="radio1" value="maybe"/>Maybe
+                                 </label>
+    
+                         </p>
+                         <p><label for="comments">Comments:</label><br/>
+                             <textarea rows="4" cols="100"></textarea></br/>
+                                 <label><input type="checkbox" name="checkbox" />
+                                 Sign me up for email updates
+                                 </label><br/><br/>
+                             <input type="submit" name="submit" value="Submit review"/>
+    
+                         </p>
+                        
+            </fieldset>
+        </form>
+    
+</body>
+</html>
